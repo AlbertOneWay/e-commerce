@@ -65,7 +65,7 @@ exports.getAll = (req, res, next) => {
 };
 
 exports.getById = (req, res, next) => {
-    categoryDto.getById({id: req.params.id}, (err, data) => {
+    categoryDto.getById({_id: req.params.id}, (err, data) => {
         if (err) {
             return res.status(400).json(
                 {

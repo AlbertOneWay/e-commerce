@@ -25,6 +25,11 @@ app.get("/", (req, res, next) => {
 });
 
 
+/** Category Routes Loading */
+
+const categoryRoutes = require("./routes/category.routes");
+categoryRoutes(app);
+
 app.listen(port, ()=>{
     console.log("Server is running...");
 })
