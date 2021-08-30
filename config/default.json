@@ -7,14 +7,5 @@
             "dbname":"E-commerceDB"
         }
     },
-    "secretKeys":{
-        "cryptojs":"jsA5t2@tfhD",
-        "jwt": "ABC@2020*"
-    },
-    "roles":{
-        "seller": 1,
-        "buyer": 2
-    },
-    "server-port": 3000,
-    "sessionTime": 3600
+    "server-port": 3000
 }
